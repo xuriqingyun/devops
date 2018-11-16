@@ -8,7 +8,7 @@ import (
 func main() {
 	http.HandleFunc("/", firstPage)
 	log.Println("web server is up!")
-	http.ListenAndServe(":80", nil)
+	http.ListenAndServe(":8080", nil)
 }
 
 func firstPage(w http.ResponseWriter, req *http.Request) {
