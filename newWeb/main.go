@@ -12,5 +12,5 @@ func main() {
 }
 
 func firstPage(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("this is first web page"))
+	w.Write([]byte("this is second web page"))
 }
