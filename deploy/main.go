@@ -15,8 +15,8 @@ func main() {
 }
 
 func firstPage(w http.ResponseWriter, req *http.Request) {
-	exec_shell("/apps/gopath/src/devops/deploy/deploy.sh")
 	w.Write([]byte("this is deploy page"))
+	exec_shell("/apps/gopath/src/devops/deploy/deploy.sh")
 
 }
 
